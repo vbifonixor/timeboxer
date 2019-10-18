@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  background-color: #c8d6e5;
+  border: 0;
+  display: block;
+  padding: 20px;
+  min-height: 150px;
+  min-width: 100%;
+}
+
+.timer {
+  display: flex;
+  background: #ff6b81;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Fira Code";
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  user-select: none;
+  margin: 10px 0;
+}
+
+.timer__caption {
+  font-size: 22px;
+}
+
+.timer__time {
+  margin-left: auto;
+  margin-right: 20px;
+  background-color: #fff;
+  color: #2f3542;
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+
+.timer__start,
+.timer__stop {
+  display: block;
+  border-radius: 100px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.timer__stop {
+  font-size: 20px;
+}
+
+.timer__start:hover,
+.timer__stop:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
